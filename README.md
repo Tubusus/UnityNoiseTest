@@ -6,7 +6,7 @@ Introduction
 
 This repository contains a very simple test of properties of Unity's Perlin noise. If you decide to run this test and report back the results:
 
-a) Thank you so much, not many people do, and
+a) Thank you so much, not many people do (0 so far), and
 
 b) It's simple, requiring only basic knowledge of Unity Editor and it shouldn't take you more than a few minutes.
 
@@ -25,6 +25,6 @@ I've written a short script that generates some values using the PerlinNoise() m
 
 3. Run the game in Play mode by clicking the 'play' arrow at the top (or use the keyboard shortcut which I don't remember). You should get several messages written in the debug log.
 
-4. There now should be a file named "noiseData.txt" in the project's root folder (or wherever the debug messages say, if it's for some reason different). Take it and upload it here, if you can (probably not, I'm new to GitHub and I'm not entirely sure what I'm doing) or somewhere else and send me the link. You can find me as @AdamCZima on Twitter or as Tubusus#8402 on Discord. If you don't mind joining and unrelated (but cool) Discord server, you can also upload it into the original thread on the #gamedev channel on the Sailwind server (https://discord.gg/DtHqT8y6) where I posted this originally.
+4. There now should be a file named "noiseData.txt" in the project's root folder (or wherever the debug messages say, if it's for some reason different). If you have a GitHub account, fork this repo and upload the file there, then make a Pull request. If you don't (and don't want to make one) upload it somewhere else and send me the link. You can find me as @AdamCZima on Twitter or as Tubusus#8402 on Discord. If you don't mind joining and unrelated (but cool) Discord server, you can also upload it into the original thread on the #gamedev channel on the Sailwind server (https://discord.gg/DtHqT8y6) where I posted this originally.
 
 After (or rather 'If'?) I get enough responses (even one will be helpful, but the more people do this the more we can learn from the data) I'll analyse it and post the results here. So far the "baseline" value of the noise seems to be 0.4652731 as opposed to what it really should be, 0.5. Let's see if it's the same for others. 
