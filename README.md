@@ -6,7 +6,7 @@ Introduction
 
 This repository contains a very simple test of properties of Unity's Perlin noise. If you decide to run this test and report back the results:
 
-a) Thank you so much and
+a) Thank you so much, not many people do, and
 
 b) It's simple, requiring only basic knowledge of Unity Editor and it shouldn't take you more than a few minutes.
 
