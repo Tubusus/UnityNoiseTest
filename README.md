@@ -1,12 +1,13 @@
 # UnityNoiseTest
 A simple script for testing some weird properties of Unity's Mathf.PerlinNoise() method.
-// Not yet finished, if you somehow see this, please don't test yet!
 
 Introduction
 ------------
 
-This repository contains a very simple test of properties of Unity's Perlin noise. If you decide to run this test and report back the results (in form of uploading the resulting log file):
-a) Thank you so much, every piece of data helps and
+This repository contains a very simple test of properties of Unity's Perlin noise. If you decide to run this test and report back the results:
+
+a) Thank you so much and
+
 b) It's simple, requiring only basic knowledge of Unity Editor and it shouldn't take you more than a few minutes.
 
 (The following is a copy-paste of my original post in the Sailwind Discord server:)
@@ -16,14 +17,14 @@ What is it? Well, since I'm working on a procedural terrain generator, for vario
 How to Run the Test
 -------------------
 
-I've written a short script that generates some values using the PerlinNoise() method and logs them into a text file. You can download it //Where?. The steps are as follows:
+I've written a short script that generates some values using the PerlinNoise() method and logs them into a text file. You can download it above or at this link: https://github.com/Tubusus/UnityNoiseTest/blob/main/NoiseSampler.cs. The steps are as follows:
 
-1. Download the script NoiseSampler.cs and import it into a Unity project (Any project works, it's a simple C# script that shouldn't break anything - it doesn't really interact with anything except random number generator and PerlinNoise() and you can disable / remove it afterwards anyway. But I won't stop you if you want to create a new project for it.)
+1. Download the script "NoiseSampler.cs" and import it into a Unity project (Any project works, it's a simple C# script that shouldn't break anything - it doesn't really interact with anything except random number generator and PerlinNoise() and you can disable / remove it afterwards anyway. But of course I won't stop you if you want to create a new project for it.)
 
 2. Attach the script to an (active) game object in the current scene
 
 3. Run the game in Play mode by clicking the 'play' arrow at the top (or use the keyboard shortcut which I don't remember). You should get several messages written in the debug log.
 
-4. There now should be a file named noiseData.txt in the project's root folder (or wherever the debug messages say, if it's for some reason different). Take it and upload it //TBD.
+4. There now should be a file named "noiseData.txt" in the project's root folder (or wherever the debug messages say, if it's for some reason different). Take it and upload it here, if you can (probably not, I'm new to GitHub and I'm not entirely sure what I'm doing) or somewhere else and send me the link. You can find me as @AdamCZima on Twitter or as Tubusus#8402 on Discord. If you don't mind joining and unrelated (but cool) Discord server, you can also upload it into the original thread on the #gamedev channel on the Sailwind server (https://discord.gg/DtHqT8y6) where I posted this originally.
 
-After (or rather 'If'?) I get enough responses (even one will be helpful, but the more people do this the more we can learn from the data) I'll analyse it and post the results here. So far the "baseline" value of the noise seems to be 0.4652731 as opposed to what it really should be, 0.5. We'll see if it's the same for other people. 
+After (or rather 'If'?) I get enough responses (even one will be helpful, but the more people do this the more we can learn from the data) I'll analyse it and post the results here. So far the "baseline" value of the noise seems to be 0.4652731 as opposed to what it really should be, 0.5. Let's see if it's the same for others. 
